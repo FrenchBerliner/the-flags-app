@@ -21,9 +21,8 @@ function Frame() {
             </div>
 
     </div>
-    <div className="mt-10 sm:hidden text-center text-3xl">
-          <h1>This 🏳️ app is designed for Desktop and Tablets</h1>
-          <h1>Not for Smartphones</h1>
+    <div className="h-[200px] mt-10 sm:hidden text-center text-xl flex flex-col justify-center">
+          <h1>This 🏳️ app is designed <br />for Desktop & Tablets only</h1>
     </div>
     </>
   );
