@@ -14,7 +14,7 @@ const [checkUpIsVisible, setCheckUpIsVisible] = useState(false);
 
 
       <div className="grow flex flex-col bg-slate-200">
-                    <div className='w-full flex justify-end'>
+                    {/* <div className='w-full flex justify-end'>
                         <button onClick={() => setCheckUpIsVisible(!checkUpIsVisible)} className='w-5 h-5 bg-slate-200'></button>
                     </div>
                     {checkUpIsVisible && <>
@@ -58,7 +58,7 @@ const [checkUpIsVisible, setCheckUpIsVisible] = useState(false);
                         {guessedCountriesArray?.map((item)=> <div key={item}>{item.country}</div>)}
                       </div>
                   </div>
-                  </>}
+                  </>} */}
 
                 {(displayedGuessedCountries?.length !== 0) &&  
                 <>
